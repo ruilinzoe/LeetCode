@@ -1,7 +1,7 @@
 package leetcode;
 
 public class leetq7 {
-    public String addStrings(String num1, String num2){
+    public static String addStrings(String num1, String num2){
         StringBuilder total= new StringBuilder();
         int carry=0;
         int p1=num1.length()-1;
@@ -22,5 +22,11 @@ public class leetq7 {
         }
 
         return total.reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        String num1 = "11";
+        String num2 = "123";
+        System.out.printf(addStrings(num1,num2));
     }
 }

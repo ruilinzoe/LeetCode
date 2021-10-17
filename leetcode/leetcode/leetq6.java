@@ -3,7 +3,7 @@ package leetcode;
 import java.util.Arrays;
 
 public class leetq6 {
-    public boolean isIsomorphic(String s, String t){
+    public static boolean isIsomorphic(String s, String t){
         int[] mapStoT = new int[256];
         Arrays.fill(mapStoT, 100);
 
@@ -24,6 +24,12 @@ public class leetq6 {
 
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        String s = "foo";
+        String t = "bar";
+        System.out.println(isIsomorphic(s, t));
     }
 
 }
