@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class leetq4 {
+public class rotateMatrix {
     public static void rotate(int[][] matrix) {
         tranpose(matrix);
         reflect(matrix);

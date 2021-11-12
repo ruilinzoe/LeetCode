@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class leetq6 {
+public class isIsomorphic {
     public static boolean isIsomorphic(String s, String t){
         int[] mapStoT = new int[256];
         Arrays.fill(mapStoT, 100);

@@ -2,7 +2,7 @@ package leetcode;
 
 import java.lang.reflect.Array;
 
-public class leetq2 {
+public class shortWordDistance {
     public static int distance(String[] word, String word1, String word2){
         int p=-1;
         int q=-1;

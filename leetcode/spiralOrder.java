@@ -3,7 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class leetq5 {
+public class spiralOrder {
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> spiral = new ArrayList<>();
         int rows = matrix.length;

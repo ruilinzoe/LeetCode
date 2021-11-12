@@ -1,16 +1,16 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class leetq9 {
+public class reverseWord {
     public static String reverseWords(String s) {
-        s = s.trim();
-        // split by multiple spaces
-        List<String> wordList = Arrays.asList(s.split("\\s+"));
-        Collections.reverse(wordList);
-        return String.join(" ", wordList);
+       s=s.trim();
+       List<String> wordlist=Arrays.asList(s.split("\\s+"));
+       Collections.reverse(wordlist);
+       return String.join(" ", wordlist);
     }
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class leetq1 {
+public class tranPoseMatrix {
     public static int[][] tranpose(int[][]matrix){
         int m=matrix.length;
         int n=matrix[0].length;

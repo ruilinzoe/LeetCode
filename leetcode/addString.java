@@ -1,6 +1,6 @@
 package leetcode;
 
-public class leetq7 {
+public class addString {
     public static String addStrings(String num1, String num2){
         StringBuilder total= new StringBuilder();
         int carry=0;
