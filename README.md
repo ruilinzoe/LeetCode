@@ -1,3 +1,4 @@
 # LeetCode
 
-# Here I publish the practiced leetcode question
+I publish the practiced leetcode question
+🌱
